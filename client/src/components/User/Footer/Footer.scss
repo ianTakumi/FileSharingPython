@@ -1,0 +1,15 @@
+.footer {
+  background-color: #333; /* Dark background */
+  color: #fff; /* White text */
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content a {
+  color: #fff; /* Link color */
+  text-decoration: none; /* Remove underline */
+}
+
+.footer-content a:hover {
+  text-decoration: underline; /* Underline on hover */
+}

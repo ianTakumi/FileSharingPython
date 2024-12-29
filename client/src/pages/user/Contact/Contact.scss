@@ -1,0 +1,175 @@
+.banner {
+  background-color: #4285F4; /* Blue background color */
+  color: #ffffff; /* White text color */
+  text-align: left; /* Left-align text */
+  padding: 80px 60px; /* Increase padding for a larger banner */
+  margin-top: 40px; /* Increase margin above the banner */
+
+  h1 {
+      font-size: 3.5rem; /* Increase font size for larger heading */
+      margin: 0 0 20px;
+  }
+
+  .banner-links {
+      font-size: 1.5rem; /* Increase font size for links */
+      
+      a {
+          color: #ffffff; /* Link color */
+          text-decoration: none;
+          font-weight: 500;
+          margin: 0 10px; /* Increase spacing between links */
+          transition: color 0.3s ease;
+
+          &:hover {
+              color: #cce0ff; /* Lighter color on hover */
+          }
+      }
+  }
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+
+  .info-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      width: 20%;
+
+      .icon {
+          width: 50px; /* Adjust icon size */
+          height: 50px;
+          background-color: #4285F4;
+          border-radius: 50%;
+          padding: 10px;
+          margin-bottom: 10px;
+      }
+
+      p {
+          font-size: 1rem;
+          margin: 0;
+          line-height: 1.4;
+
+          strong {
+              display: block;
+              font-weight: bold;
+              font-size: 1.1rem;
+          }
+      }
+  }
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8); // Make form background transparent
+  border-radius: 8px;
+
+  .form-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+    hr {
+      flex: 1;
+      border: none;
+      border-top: 1px solid #ccc;
+      margin-right: 10px;
+    }
+
+    span {
+      font-size: 24px; // Increase font size for "Get in touch"
+      font-weight: bold; // Emphasize the text
+      color: #4285F4;
+    }
+  }
+
+  h2 {
+    font-size: 2rem;
+    color: #333;
+    margin: 0 0 10px;
+  }
+
+  p {
+    font-size: 1rem;
+    color: #666;
+    margin: 0 0 20px;
+    line-height: 1.6;
+  }
+
+  .input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+
+    .input-field {
+      flex: 1;
+      padding: 12px;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      outline: none;
+
+      &:focus {
+        border-color: #4285F4;
+      }
+    }
+  }
+
+  .textarea-field {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    min-height: 100px;
+    margin-bottom: 20px;
+
+    &:focus {
+      border-color: #4285F4;
+    }
+  }
+
+  .checkbox-group {
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+    color: #333;
+    margin-bottom: 20px;
+
+    input[type="checkbox"] {
+      margin-right: 10px;
+      accent-color: #4285F4;
+    }
+  }
+
+  .submit-button {
+    width: 100%;
+    padding: 14px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #4285F4;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: #357ae8;
+    }
+  }
+}
+
+.google-maps {
+  margin: 20px 0; // Adjust margin as needed
+  border-radius: 8px; // Optional: rounded corners
+  overflow: hidden; // Ensure the map fits within the rounded corners
+}

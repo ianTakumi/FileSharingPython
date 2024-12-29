@@ -1,0 +1,128 @@
+/* Container */
+.signup-container {
+  display: flex;
+  height: 100vh;
+}
+
+.signup-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background-color: #fff;
+}
+
+.signup-image {
+  flex: 2;
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+/* Social Buttons */
+.social-buttons {
+  display: flex;
+  justify-content: space-between; /* Align buttons beside each other */
+  gap: 1rem; /* Space between buttons */
+  margin-bottom: 1rem;
+  width: 100%; /* Ensure the container takes full width */
+}
+
+.google-btn,
+.facebook-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center content horizontally */
+  padding: 1rem; /* Increase padding for more height */
+  border: 2px solid transparent; /* Maintain border space */
+  cursor: pointer;
+  font-weight: bold;
+  flex: 1; /* Allow buttons to expand equally */
+  border-radius: 4px; /* Optional: add some border radius */
+  background-color: transparent; /* Make background transparent */
+}
+
+/* Specific styles for the Google button */
+.google-btn {
+  border: 1px solid #ddd; /* Optional: light border for distinction */
+}
+
+/* Specific styles for the Facebook button */
+.facebook-btn {
+  border: 1px solid #3b5998; /* Facebook brand color for border */
+  color: #3b5998; /* Facebook brand color for text */
+}
+
+/* Google and Facebook Button Images */
+.google-btn img,
+.facebook-btn img {
+  width: 20px;
+  height: 20px;
+  margin-right: 0.5rem; /* Space between image and text */
+}
+
+/* Divider */
+.divider {
+  width: 100%;
+  text-align: center;
+  margin: 1rem 0;
+  border-bottom: 1px solid #ddd;
+  line-height: 0.1em;
+}
+
+.divider span {
+  background: #fff;
+  padding: 0 1rem;
+  color: #aaa;
+}
+
+/* Form Fields */
+form {
+  width: 100%;
+}
+
+label {
+  font-size: 14px;
+  margin-bottom: 0.5rem;
+  color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Sign Up Button */
+.signup-button {
+  width: 100%;
+  padding: 0.75rem;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Existing Account Link */
+.existing-account {
+  margin-top: 1rem;
+  font-size: 14px;
+  width: 100%; /* Make sure it takes full width */
+  text-align: right; /* Align text to the right */
+}
+
+.existing-account a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.existing-account a:hover {
+  text-decoration: underline;
+}

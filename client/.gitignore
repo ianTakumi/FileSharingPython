@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Production build
+build/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Temporary files
+temp/
+*.tmp
+.cache/
+
+# Testing
+coverage/
+*.lcov
+jest-cache/
+jest-output/
+
+# Editor and IDE files
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# Mac system files
+Thumbs.db
+.DS_Store
+
+# Miscellaneous
+*.log
+*.lock
